@@ -1,0 +1,63 @@
+.heading
+{
+    width:100%;
+    text-align: left;
+}
+
+.heading h3
+{
+    display: inline;
+}
+
+.heading button
+{
+    float: right;
+}
+
+#mario
+{
+    width: 100%;
+}
+
+#start , #status
+{
+    font-size: 22px;
+}
+
+.image
+{
+    width: 45%;
+    display:inline-block;
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+h4
+{
+    line-height:2 ;
+    background-color: white;
+    margin: 0;
+}
+
+@keyframes Examples
+{
+    0%{box-shadow: 5px 5px 50px red;}
+    25%{box-shadow: 50px 5px 50px pink;}
+    50%{box-shadow: 5px 5px 50px purple;}
+    100%{box-shadow: 5px 5px 50px blue;}
+}
+
+canvas
+{
+    box-shadow: 5px blueviolet;
+}
+
+video{
+    background-size:cover;
+    background:url('game_console.png');
+    padding: 25px;
+    background-position: center;
+}
